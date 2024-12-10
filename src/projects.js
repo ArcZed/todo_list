@@ -1,4 +1,4 @@
-const Todo = class {
+class Todo {
     constructor(title, descriptions, dueDate, priority, notes, checklist) {
         this.title = title;
         this.descriptions = descriptions;
@@ -9,5 +9,3 @@ const Todo = class {
     }
 }
 
-const me = new Todo("Dwa");
-export default me
